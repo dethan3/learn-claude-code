@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.log
+.env
+.author-checks/
+*.test.ts
+*.spec.ts

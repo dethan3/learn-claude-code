@@ -200,6 +200,14 @@ cython_debug/
 .worktrees/
 .scheduled_tasks.json
 
+# Local AI/editor state
+.claude/
+.codex/
+.agents/
+.idea/
+.vscode/
+*.code-workspace
+
 # Accidental root npm lockfile; web/package-lock.json is tracked.
 /package-lock.json
 
@@ -232,3 +240,71 @@ test_providers.py
 # Internal analysis artifacts (not learning material)
 analysis/
 analysis_progress.md
+
+# macOS / local filesystem
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+
+# Node / TypeScript / frontend build output
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+.turbo/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+out/
+coverage/
+
+# Secrets and local credentials
+.env.*
+!.env.example
+!.env*.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.csr
+*.token
+*.secret
+secrets/
+secrets.*
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*.kubeconfig
+
+# Local databases, temp files, and packaged exports
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+logs/
+*.tmp
+*.temp
+tmp/
+temp/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z

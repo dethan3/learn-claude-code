@@ -1,0 +1,26 @@
+{
+  "name": "learn-pi-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "s01": "tsx s01_minimal_agent_core/code.ts",
+    "s02": "tsx s02_tool_contract/code.ts",
+    "s03": "tsx s03_provider_event_stream/code.ts",
+    "s04": "tsx s04_evented_tool_loop/code.ts",
+    "s05": "tsx s05_tool_hook_boundary/code.ts",
+    "s06": "tsx s06_turn_snapshot/code.ts",
+    "s07": "tsx s07_session_tree/code.ts",
+    "s08": "tsx s08_context_resources/code.ts",
+    "s09": "tsx s09_extension_runtime/code.ts",
+    "s10": "tsx s10_runtime_modes/code.ts",
+    "s11": "tsx s11_trust_and_execution_boundary/code.ts",
+    "s12": "tsx s12_package_distribution/code.ts",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
